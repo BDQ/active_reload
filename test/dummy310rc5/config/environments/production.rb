@@ -1,4 +1,4 @@
-Dummy310rc4::Application.configure do
+Dummy310rc5::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -13,9 +13,6 @@ Dummy310rc4::Application.configure do
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
-
-  # Specify the default JavaScript compressor
-  config.assets.js_compressor  = :uglifier
 
   # Specifies the header that your server uses for sending files
   # (comment out if your front-end server doesn't support this)
